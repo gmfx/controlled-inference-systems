@@ -1,0 +1,5 @@
+policy,version,effective_from,effective_to,observed_at,rules_json
+G,v7,2026-09-01T00:00:00Z,2026-09-02T00:00:00Z,2026-09-01T08:00:00Z,"{""eligible_action"": ""APPROVE"", ""ineligible_action"": ""REJECT"", ""required_sources"": [""S1"", ""S2""], ""routes"": {""HIGH"": ""GENERALIST_REVIEW"", ""LOW"": ""GENERALIST""}}"
+S,v7,2026-09-01T00:00:00Z,2026-09-02T00:00:00Z,2026-09-01T08:00:00Z,"{""eligible_action"": ""APPROVE"", ""ineligible_action"": ""REJECT"", ""required_sources"": [""S1"", ""S2""], ""routes"": {""HIGH"": ""SPECIALIST_REVIEW"", ""LOW"": ""SPECIALIST_FIRST""}}"
+H,v7,2026-09-01T00:00:00Z,2026-09-02T00:00:00Z,2026-09-01T08:00:00Z,"{""eligible_action"": ""APPROVE"", ""ineligible_action"": ""REJECT"", ""required_sources"": [""S1"", ""S2""], ""routes"": {""HIGH"": ""SPECIALIST_REVIEW"", ""LOW"": ""GENERALIST""}}"
+T,v7,2026-09-01T00:00:00Z,2026-09-02T00:00:00Z,2026-09-01T08:00:00Z,"{""eligible_action"": ""APPROVE"", ""ineligible_action"": ""REJECT"", ""required_sources"": [""S1"", ""S2""], ""routes"": {""HIGH"": ""RULES_HUMAN"", ""LOW"": ""RULES_HUMAN""}}"

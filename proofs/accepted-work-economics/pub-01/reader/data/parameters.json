@@ -1,0 +1,61 @@
+{
+  "currency": "USD",
+  "families": {
+    "aggregation": {
+      "complex": 5000,
+      "defect_burden": "35",
+      "routine": 15000,
+      "value": "4"
+    },
+    "content": {
+      "complex": 6000,
+      "defect_burden": "10",
+      "routine": 26000,
+      "value": "2"
+    },
+    "decision": {
+      "complex": 8000,
+      "defect_burden": "40",
+      "routine": 40000,
+      "value": "6"
+    }
+  },
+  "horizon_days": 90,
+  "maturity_days": 30,
+  "observation_cutoffs": {
+    "C1": "2026-10-01T12:00:00Z",
+    "C2": "2026-10-02T17:00:00Z",
+    "C3": "2026-10-03T12:00:00Z",
+    "C4": "2026-10-04T12:00:00Z"
+  },
+  "origin_day": "2026-09-01",
+  "policies": {
+    "G": {
+      "capacity": 29000,
+      "investment": "0"
+    },
+    "H": {
+      "capacity": 33000,
+      "investment": "180000"
+    },
+    "S": {
+      "capacity": 41000,
+      "investment": "90000"
+    },
+    "T": {
+      "capacity": 24000,
+      "investment": "0"
+    }
+  },
+  "q_values": [
+    "1/10",
+    "3/10",
+    "7/10",
+    "1"
+  ],
+  "required_peak": 25000,
+  "required_sources": [
+    "WORK_LEDGER",
+    "OUTCOME_FEED"
+  ]
+}
